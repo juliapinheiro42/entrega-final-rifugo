@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .2), 0 0 5px rgba(0, 0, 0, .2), 0 0 15px rgba(0, 0, 0, .2), 0 0 15px rgba(0, 0, 0, .2);
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(270.17deg, rgba(0, 0, 0, 0.96) -8.73%, rgba(255, 136, 0, 0.980784) 21.28%, #FF8800 49.03%, #FF7700 78.48%);
+}
+.logo img{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 258.24px;
+    height: 44.38px;
+    position: absolute;
+    left: 3px;
+    top:12px;
+     margin-left: 20px;
+}
+.links{
+    align-items: center;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center; 
+    
+}
+.links ul{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.links a{
+    justify-content: end;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right,#000000,#444141,#000000);
+    padding: 10px;
+    margin-right: 60px;
+}
+.links svg{
+    margin-right: 40px;
+    color: #fff;
+    
+}

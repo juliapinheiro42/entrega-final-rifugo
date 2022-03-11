@@ -1,0 +1,435 @@
+.animation{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    background: linear-gradient(to left, #000,rgb(32, 31, 31), #000);
+    width: 100%;
+    
+}
+.frase{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-right: 100px;
+}
+.frase h1 {
+    color: #ff6600;
+  margin: 0 0 20px 20px;
+}
+.frase a{
+position: relative;
+display: inline-block;
+padding: 10px 20px;
+color: #ff6600;
+text-decoration: none;
+text-transform: uppercase;
+overflow: hidden;
+transition: .3s;
+letter-spacing: 4px;
+}
+.frase a:hover{
+    background:#ff6600;
+    color: #FFFDF1;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ff6600, 0 0 25px #ff6600, 0 0 50px #ff6600, 0 0 100px #ff6600;
+}
+.frase a span{
+position: absolute;
+display:block;
+margin: 0 10px 0 10px;
+}
+.frase a span:nth-child(1){
+    top:0;
+    left:-100%;
+    width:100%;
+    height:2px;
+    background: linear-gradient(90deg, transparent, #ff6600);
+    animation: btn-anim1 1s linear infinite;
+}
+@keyframes btn-anim1 {
+    0%{
+        left: -100%
+    }
+    50%, 100% {
+        left: 100%
+    }
+}
+.frase a span:nth-child(2){
+    top:-100%;
+    right:0;
+    width:2px;
+    height:100%;
+    background: linear-gradient(180deg, transparent, #ff6600);
+    animation: btn-anim2 1s linear infinite;
+    
+}
+@keyframes btn-anim2 {
+    0%{
+        top: -100%
+    }
+    50%, 100% {
+        top: 100%
+    }
+}
+.frase a span:nth-child(3){
+    bottom:0;
+    right:-100%;
+    width:100%;
+    height:2px;
+    background: linear-gradient(270deg, transparent, #ff6600);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s;
+}
+@keyframes btn-anim3 {
+    0%{
+        right: -100%
+    }
+    50%, 100% {
+        right: 100%;
+    }
+}
+.frase a span:nth-child(4){
+    bottom:-100%;
+    left:0;
+    width:2px;
+    height:100%;
+    background: linear-gradient(360deg, transparent, #ff6600);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s;
+}
+@keyframes btn-anim4 {
+    0%{
+        bottom: -100%
+    }
+    50%, 100% {
+       bottom: 100%;
+    }
+}
+.circle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width:450px;
+    height:450px;
+    filter: url(#wavy) blur(1px);
+}
+.circle::before{
+    content:'';
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    right:100px;
+    bottom: 100px;
+    border:20px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #ff6600,
+               inset 0 0 50px #ff6600;           
+    animation: animate 5s linear infinite;
+}
+
+.circle::after{
+    content:'';
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    right:100px;
+    bottom: 100px;
+    border:20px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #ff6600,
+               inset 0 0 50px #ff6600;           
+}
+
+@keyframes animate {
+    0%{
+        box-shadow:  0 0 50px #ff6600,
+        inset 0 0 50px #ff6600;
+       
+    }
+    20%{
+        box-shadow:  0 0 60px #ff6600,
+        inset 0 0 60px #ff6600;
+        
+    }
+    40%{
+        box-shadow:  0 0 40px #ff6600,
+        inset 0 0 40px #ff6600;
+        
+    }
+    60%{
+        box-shadow:  0 0 80px #ff6600,
+        inset 0 0 80px #ff6600;
+        
+    }
+    80%{
+        box-shadow:  0 0 100px #ff6600,
+        inset 0 0 100px #ff6600;
+      
+    }
+    100%{
+        box-shadow:  0 0 50px #ff6600,
+        inset 0 0 50px #ff6600;
+       
+    }
+}
+svg{
+    width:0;
+    height:0;
+}
+
+.cardes{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.cardss{
+    margin: 0 30px 0 30px;
+    background-color: transparent;
+    border: none;
+}
+
+
+.card1 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
+    background-image: linear-gradient(to left, #222121, #131210, #332f2d 100% );
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+}
+
+    .card1 img {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        
+        cursor: pointer;
+        z-index: 0;
+        transition: all .4s;
+    }
+
+    .card1:hover img {
+        margin-top: -30px;
+    }
+
+    .card1:hover {
+        width:250px;
+        height: 300px;
+    }
+
+    .card1:before {
+        content: ' Aprenda a tirar o visto de refugiado.';
+        letter-spacing: 0.2em;
+        position: absolute;
+        bottom: 8px;
+        left: 30px;
+        color: #FFFDF1;
+        font-size: 16px;
+        font-weight: bolder;
+        
+    }
+
+.card2 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
+    background-image: linear-gradient(to left, #222121, #131210, #332f2d 100% );
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+}
+
+    .card2 img {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        cursor: pointer;
+        z-index: 10;
+        transition: all .4s;
+    }
+
+    .card2:hover img {
+        margin-top: -30px;
+    }
+
+    .card2:hover {
+        width:250px;
+        height: 300px;
+    }
+
+    .card2:before {
+        content: ' Dúvidas? clique aqui.';
+        letter-spacing: 0.2em;
+        position: absolute;
+        bottom: 8px;
+        left: 30px;
+        color: #FFFDF1;
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
+.card3 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
+    background-image: linear-gradient(to left, #222121, #131210, #332f2d 100% );
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+}
+
+    .card3 img {
+        width: 200px;
+    height: 200px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+        cursor: pointer;
+        z-index: 10;
+        transition: all .4s;
+    }
+
+    .card3:hover img {
+        margin-top: -30px;
+    }
+
+    .card3:hover {
+        width:250px;
+        height: 300px;
+    }
+
+    .card3::before {
+        content: ' Precisa de um tradutor? Clique aqui.';
+        letter-spacing: 0.2em;
+        position: absolute;
+        bottom: 8px;
+        left: 30px;
+        color: #FFFDF1;
+        font-size: 16px;
+        font-weight: bolder
+    }
+    .words{
+    color: #fffdf1;
+     position: absolute;
+    left: 42px;
+    top: 781px;
+    font-family: Roboto;
+    font-size: 20px;
+   text-align: center;
+    }
+    .words h2, .words h5 {
+        padding-top: 10px;
+    }
+    .logo2{
+    position: absolute;
+    width:100%;
+    height:100%;
+    left: 909px;
+    top:0px;
+
+    } 
+    .logo2 img{
+     width: 185px;
+    height: 354px;
+    }
+    .button a{
+        position: relative;
+        display: inline-block;
+        top:50px;
+        right:0;
+        padding: 10px 20px;
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: .3s;
+        letter-spacing: 4px;
+        }
+        .button a:hover{
+            background:#131210;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #131210, 0 0 25px #131210, 0 0 50px #131210, 0 0 100px #131210;
+            color:#fffdf1;
+        }
+        .button a span{
+        position: absolute;
+        display:block;
+        margin: 0 10px 0 10px;
+        }
+        .button a span:nth-child(1){
+            top:0;
+            left:-100%;
+            width:100%;
+            height:2px;
+            background: linear-gradient(90deg, transparent, #131210);
+            animation: btn-anim1 1s linear infinite;
+        }
+        @keyframes btn-anim1 {
+            0%{
+                left: -100%
+            }
+            50%, 100% {
+                left: 100%
+            }
+        }
+        .button a span:nth-child(2){
+            top:-100%;
+            right:0;
+            width:2px;
+            height:100%;
+            background: linear-gradient(180deg, transparent, #131210);
+            animation: btn-anim2 1s linear infinite;
+            
+        }
+        @keyframes btn-anim2 {
+            0%{
+                top: -100%
+            }
+            50%, 100% {
+                top: 100%
+            }
+        }
+        .button a span:nth-child(3){
+            bottom:0;
+            right:-100%;
+            width:100%;
+            height:2px;
+            background: linear-gradient(270deg, transparent, #131210);
+            animation: btn-anim3 1s linear infinite;
+            animation-delay: .5s;
+        }
+        @keyframes btn-anim3 {
+            0%{
+                right: -100%
+            }
+            50%, 100% {
+                right: 100%;
+            }
+        }
+        .button a span:nth-child(4){
+            bottom:-100%;
+            left:0;
+            width:2px;
+            height:100%;
+            background: linear-gradient(360deg, transparent, #131210);
+            animation: btn-anim4 1s linear infinite;
+            animation-delay: .25s;
+        }
+        @keyframes btn-anim4 {
+            0%{
+                bottom: -100%
+            }
+            50%, 100% {
+               bottom: 100%;
+            }
+        }
+   

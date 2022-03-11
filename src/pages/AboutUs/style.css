@@ -1,0 +1,208 @@
+.who{
+    position: relative;
+    left: 0px;
+    top:0px; 
+    display: flex; 
+    flex-direction: column;
+   
+}
+.who h1, .who h4, .who hr, .who span,
+.how h1, .how h4, .how hr, .how span, .how br{
+    margin: 10px 0 0 10px;
+    color: #fffdf1;
+}
+ .who span, .why span, .how span{
+font-size: 20px;
+}
+.who h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.who h4, .why h4, .how h4{
+    font-size: 30px;
+}
+.who hr, .why hr, .how hr {
+    width: 30%;
+}
+.why{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: end;
+    align-items: end;
+    top:34px;
+}
+.how{
+    position: relative;
+    left: 0px;
+    top: 210px;  
+}
+.about-logo2{
+    position: relative;
+width: 269px;
+height: 515px;
+left: 722px;
+top: -380px;
+}
+.why h1, .why h4, .why hr, .why span{
+    margin: 10px 10px 0 0;
+    color: #fffdf1;
+}
+.mor-div h1{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 30px 0;
+    color: #fffdf1;
+}
+
+.rowcard{
+    display: grid;
+    grid-template-columns: repeat(3, 01fr);
+    margin-bottom: 50px;
+}
+.outer-div,
+.inner-div {
+    height: 450px;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.outer-div {
+    perspective: 900px;
+    perspective-origin: 50% calc(50% - 18em);
+}
+
+.inner-div {
+    margin: 0 auto;
+    border-radius: 5px;
+    font-weight: 400;
+    color: #fffdf1;
+    font-size: 1rem;
+    text-align: center;
+    transition: all 0.6s cubic-bezier(0.8, -0.4, 0.2, 1.7);
+    transform-style: preserve-3d;
+}
+
+    .inner-div:hover .social-icon {
+        opacity: 1;
+        top: 0;
+    }
+
+.outer-div:hover .inner-div {
+    transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.front {
+    cursor: pointer;
+    height: 100%;
+    background-image: linear-gradient(to left, #000000, #2a2a2a, #000000 100% );
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 2.5px #131210, 0 0 7.5px #131210, 0 0 12.5px #131210, 0 0 25px #131210;
+}
+
+.front__bkg-photo {
+    position: relative;
+    height: 150px;
+    width: 300px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+    .front__bkg-photo:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+.front__face-photo {
+    position: relative;
+    top: -60px;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid #ff6600;
+    background-size:cover;
+    overflow: hidden;
+}
+.front__face-photo img{
+    width: 120px;
+}
+
+.front__text {
+    position: relative;
+    top: -55px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-size: 18px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+    .front__text .front__text-header {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    
+
+
+    .front__text .front__text-hover {
+        position: relative;
+        top: 10px;
+        font-size: 10px;
+        color: tomato;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+        border:none;
+        padding: 12px 15px;
+        border-radius: 30px;
+        background-color: #ff6600;
+        color: #fffdf1;
+    }
+   .back svg{
+       color: #ff6600;
+   }
+   .back svg:hover{
+       color: #fffdf1;
+   }
+
+.back {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to left, #000000, #2a2a2a, #000000 100% );
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 2.5px #131210, 0 0 7.5px #131210, 0 0 12.5px #131210, 0 0 25px #131210;
+}

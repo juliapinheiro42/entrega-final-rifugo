@@ -1,0 +1,46 @@
+.doc{
+    height: 100vh;
+    color: #FFFDF1;
+}
+.doc h2, .doc h3, .doc h4, .doc h5{
+  font-size: 30px;
+    padding: 20px 0 15px 15px;
+}
+.doc h5{
+    font-size: 20px;
+}
+.doc span, .doc li{
+   font-weight: bold;
+   font-size: 18px;
+    margin-left: 15px;
+    
+}
+.rec span{
+margin-bottom: 10px;
+}
+.logo3{
+    position: absolute;
+width: 185px;
+height: 354px;
+left: 1289px;
+top: 563px;
+}
+ .doc h2{
+    width: 45ch;
+    animation: typing 2s steps(40), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
