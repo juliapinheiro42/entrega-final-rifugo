@@ -1,12 +1,33 @@
 import React from 'react';
 import Header from '../../components/Header';
 import { Link} from 'react-router-dom';
+import axios from 'axios';
 
-export default function Login() {
-    
+class Register extends React.Component {
+  state = {
+    name: '',
+    email: '',
+    password: '',
+    errorMsg: null
+  }
+  entrar = async () => {
+   await axios
+   .post('http://localhost:8080/api/users', {
+     name:  this.state.name,
+    email:  this.state.email,
+    password: this.state.password 
+   }).then(response => {
+
+    this.props.history.push('/login')
+  }).catch(error => {
+    this.setState({errorMsg: error.response.data})
+  })
+ 
+  
+  }
+  render(){
     return (
       <div className="container-sign">
-        <Header/>
         <div className="login">
           <div className="login-area">
             <h1>RIFUĜO</h1>
@@ -15,11 +36,11 @@ export default function Login() {
   
           <form >
             <h1>Entrar</h1>
-            <input type='text'placeholder="seu nome" />
-            <input type="email" placeholder="email@email.com"/>
-            <input type="password" placeholder="*******" />
+            <input type='text'placeholder="seu nome" value={this.state.name} onChange={e => this.setState({name: e.target.value})} />
+            <input type="email" placeholder="email@email.com" value={this.state.email} onChange={e => this.setState({email: e.target.value})}/>
+            <input type="password" placeholder="*******" value={this.state.password} onChange={e => this.setState({password: e.target.value})}/>
             <div className='frase'>
-            <a href="#">
+            <a onClick={this.entrar}>
           <span></span>
           <span></span>
           <span></span>
@@ -34,3 +55,5 @@ export default function Login() {
       </div>
     );
   }
+}
+export default Register;

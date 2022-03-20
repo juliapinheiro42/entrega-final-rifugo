@@ -8,7 +8,7 @@ export default function Tradutors() {
    <div>
      <Header/>
      <div>
-     <Link to='/tradutors'> <ChatBubbleIcon  fontSize='large'/></Link>
+     <Link to='/chat'> <ChatBubbleIcon  fontSize='large'/></Link>
      </div>
    </div>
  );

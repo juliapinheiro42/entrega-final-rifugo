@@ -3,39 +3,22 @@
     box-shadow: 0 0 3px rgba(0, 0, 0, .2), 0 0 5px rgba(0, 0, 0, .2), 0 0 15px rgba(0, 0, 0, .2), 0 0 15px rgba(0, 0, 0, .2);
     justify-content: end;
     align-items: center;
-    position: absolute;
     width: 100%;
     height: 69px;
-    left: 0px;
-    top: 0px;
     background: linear-gradient(270.17deg, rgba(0, 0, 0, 0.96) -8.73%, rgba(255, 136, 0, 0.980784) 21.28%, #FF8800 49.03%, #FF7700 78.48%);
 }
-.logo img{
+.nav img{
     display: flex;
-    align-items: center;
     justify-content: start;
     width: 258.24px;
     height: 44.38px;
-    position: absolute;
-    left: 3px;
-    top:12px;
-     margin-left: 20px;
+     margin-right: 300px;
 }
-.links{
-    align-items: center;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    text-align: center; 
-    
-}
-.links ul{
+
+
+.navbar a{
     display: flex;
     align-items: center;
-    justify-content: end;
-}
-.links a{
     justify-content: end;
     color: transparent;
     background-clip: text;
@@ -43,9 +26,75 @@
     background-image: linear-gradient(to right,#000000,#444141,#000000);
     padding: 10px;
     margin-right: 60px;
+    font-size: 20px;
 }
-.links svg{
+.navbar svg{
     margin-right: 40px;
     color: #fff;
     
+}
+@media screen and (max-width:1440px) {
+    .navbar a{
+        padding: 10px;
+        margin-right: 40px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1040px) {
+    .logo img{
+        width: 190.24px;
+        height: 44.38px;
+    
+    }
+    .navbar a{
+
+        padding: 4px;
+        margin-right: 0px;
+    }
+    .navbar svg{
+        margin-right: 0px;
+        color: #fff;
+        
+    }
+}
+
+@media screen and (max-width:800px) {
+    .logo img{
+        width: 180.24px;
+        height: 44.38px;
+        position: absolute;
+        left: -460px;
+        top:7px;
+         margin-left: 20px;
+    }
+    .navbar {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+       
+    }
+.navbar a{
+    font-size: 14px;
+}
+}
+@media screen and (max-width:600px) {
+    .logo{
+        width: 100.24px;
+        height: 44.38px;
+        position: absolute;
+        left: 100px;
+        top:0px;
+         margin-left: 0px;
+    }
+ 
+
+}
+@media screen and (max-width:600px) {
+    .logo{
+        left: 200px;
+        top:0px;
+         margin-left: 0px;
+    }
+ 
+
 }

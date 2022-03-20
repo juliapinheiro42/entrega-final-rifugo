@@ -15,7 +15,6 @@ display: grid;
     flex-direction: column;
     width: 100%;
     margin-left:10px ;
-    margin-top: 10px;
    
 
 }
@@ -43,9 +42,9 @@ display: grid;
     flex-direction: column;
     margin-top: 10px;
     font-weight: 600;
- color: #fffdf1;
- cursor: pointer;
- transition: .2s
+    cursor: pointer;
+  transition: .2s;
+ color: #fff;
 } 
 .footer a:hover{
     color: #ff6600;
@@ -57,14 +56,83 @@ margin: 10px 0 10px 0;
 font-size: 600;
 }
 .logos{
-    margin-top: 200px;
+    
+    margin-top: 180px;
     color: #fff;
     
+}
+.logos h4{
+    font-size: 16px;
 }
 .logos svg{
     flex-direction: row ;
   align-items: center;
     margin: 10px;
-    size: 30px;
 
+}
+
+@media screen and (max-width:1024px) {
+    .logos{
+    
+        margin-top: 160px;     
+    }
+    .logos svg{
+        flex-direction: row ;
+      align-items: center;
+        margin: 10px;
+        width: 30px;
+    
+    }
+}
+@media screen and (max-width:1024px) {
+    .logos{
+    
+        margin-top: 140px;     
+    }
+    .logos svg{
+        flex-direction: row ;
+      align-items: center;
+        margin: 8px;
+        width: 20px;
+    
+    }
+    .logo-footer img{
+        width: 140px;
+        height: 150px;
+    }
+    .footer a{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8px;
+        font-weight: 500;
+}
+.logo-footer h1{
+    font-family: 'Fabada-regular';
+    font-size: 25px;
+    color: #ff6600;
+    margin-left:30px ;
+    margin-top: 20px;
+}
+.explore, .about-footer, .help{
+    margin: 0 0px 0 15px;
+}
+.explore h3, .about-footer h3, .help h3{
+   font-size: 20px;
+}
+.explore a, .about-footer a, .help a{
+    font-size: 14px;
+ }
+}
+@media screen and (max-width:600px) {
+    .logos{
+        position: absolute;
+        top: 1500px;
+        left: 100px;
+        margin-top: 0px;
+       display: flex;
+       flex-direction: row;
+    }
+    .logo-footer{
+       display: none;
+    }
 }

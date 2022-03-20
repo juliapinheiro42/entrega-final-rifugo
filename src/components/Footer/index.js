@@ -16,33 +16,33 @@ export default function Footer() {
     </div>
     <div className='explore'>
         <h3 className='pr-3  '>informações</h3>
-        <a>Polícia federal</a>
-        <a>CAMI</a>
-        <a>Adus</a>
-        <a>Refúgio343</a>
-        <a>ACNUR</a>
-        <a>UNHCR</a>
-        <a>Portal de imigração</a>
+        <a href=''>Polícia federal</a>
+        <a  href=''>CAMI</a>
+        <a  href=''>Adus</a>
+        <a  href=''>Refúgio343</a>
+        <a  href=''>ACNUR</a>
+        <a  href=''>UNHCR</a>
+        <a  href=''>Portal de imigração</a>
     </div>
     <div className='about-footer'>
         <h3>Sobre</h3>
-        <a>Quem somos</a>
-        <a>Home</a>
-        <a>Documentação</a>
-        <a>Duvidas</a>
+        <a  href=''>Quem somos</a>
+        <a  href=''>Home</a>
+        <a  href=''>Documentação</a>
+        <a  href=''>Duvidas</a>
         
     </div>
     <div className='help'>
         <h3>AJUDA</h3>
-        <a>Suporte</a>
-        <a>FAQs</a>
+        <a  href=''>Suporte</a>
+        <a  href=''>FAQs</a>
     </div>
     <div className='logos'>
         <h4>Siga nossas redes sociais</h4>
-    <InstagramIcon fontSize="large"/>
-    <FacebookIcon fontSize="large"/>
-    <LinkedInIcon fontSize="large"/>
-    <YouTubeIcon fontSize="large"/>
+    <InstagramIcon  href='' fontSize="large"/>
+    <FacebookIcon  href='' fontSize="large"/>
+    <LinkedInIcon  href='' fontSize="large"/>
+    <YouTubeIcon  href='' fontSize="large"/>
         </div>
    </div>
  );
