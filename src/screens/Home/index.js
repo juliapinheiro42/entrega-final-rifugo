@@ -1,5 +1,5 @@
 import React from "react";
-import {ScreenScrollContainer,HomeList,Header,Card} from '../../components'
+import {ScreenScrollContainer,HomeList,Header} from '../../components'
 
 
 
