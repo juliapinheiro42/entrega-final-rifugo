@@ -1,8 +1,7 @@
 import React from "react";
-import { NavigationContainer, StackActions } from "@react-navigation/native";
+import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import { Home,SplashScreen,Details } from "../screens";
-import {Hospitais,Abrigos,PontosDoacoes} from '../mapas'
+import { Home,SplashScreen,Details,Loggin } from "../screens";
 
 export const Routes = () => {
 
@@ -16,6 +15,7 @@ export const Routes = () => {
                   }}
             >
                 <Stack.Screen name="Splash" component = {SplashScreen}/>
+                <Stack.Screen name="Loggin" component={Loggin}/>
                 <Stack.Screen name="Home" component={Home}/>
                 <Stack.Screen name="Details" component={Details}/>
             </Stack.Navigator>
