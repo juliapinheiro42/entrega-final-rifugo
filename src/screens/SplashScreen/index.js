@@ -1,11 +1,11 @@
 import React,{useEffect} from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, View, } from 'react-native';
 import { CustomText,Logo,Logotipo } from '../../components';
 
 export const SplashScreen = ({navigation}) => {
   useEffect(() => {
       setTimeout(() => {
-        navigation.navigate('Loggin')
+        navigation.navigate('Home')
       },1000)
   },[navigation])
 

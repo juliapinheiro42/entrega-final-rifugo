@@ -10,7 +10,6 @@ import {
 } from '@expo-google-fonts/source-sans-pro'
 import { theme } from './src/styles'
 import { Routes }  from './src/routes'
-import { Loggin } from '~/screens/Loggin'
 
 export default function App() {
   let [fontsLoaded] = useFonts({
