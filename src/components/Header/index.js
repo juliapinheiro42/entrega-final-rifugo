@@ -19,7 +19,7 @@ const Header = (props) => {
                 <div className='logo' >
                 <Link to='/'> <img src={logo}/></Link>
                 </div>
-                <NavbarToggler onClick={toggle} className='toggle'/>
+                <NavbarToggler onClick={toggle}/>
                 <Collapse isOpen={isOpen} navbar>
                     <Nav  className='navbar'>
                         <NavItem >

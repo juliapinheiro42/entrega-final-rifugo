@@ -125,12 +125,7 @@ font-size: 600;
 }
 @media screen and (max-width:600px) {
     .logos{
-        position: absolute;
-        top: 1500px;
-        left: 100px;
-        margin-top: 0px;
-       display: flex;
-       flex-direction: row;
+       display: none;
     }
     .logo-footer{
        display: none;

@@ -15,7 +15,7 @@ export default function Footer() {
    <h1> RIFUĜO</h1>
     </div>
     <div className='explore'>
-        <h3 className='pr-3  '>informações</h3>
+        <h3 className='pr-3'>informações</h3>
         <a href=''>Polícia federal</a>
         <a  href=''>CAMI</a>
         <a  href=''>Adus</a>
@@ -26,10 +26,10 @@ export default function Footer() {
     </div>
     <div className='about-footer'>
         <h3>Sobre</h3>
-        <a  href=''>Quem somos</a>
-        <a  href=''>Home</a>
-        <a  href=''>Documentação</a>
-        <a  href=''>Duvidas</a>
+        <Link to='/aboutus'>Quem somos</Link>
+        <Link to='/'>Home</Link>
+        <Link to='/documents'>Documentação</Link>
+        <Link to='/duvidas'>Duvidas</Link>
         
     </div>
     <div className='help'>

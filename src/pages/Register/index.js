@@ -12,7 +12,7 @@ class Register extends React.Component {
   }
   entrar = async () => {
    await axios
-   .post('http://localhost:8080/api/users', {
+   .post('https://rifugo-application.herokuapp.com/api/users', {
      name:  this.state.name,
     email:  this.state.email,
     password: this.state.password 

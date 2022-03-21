@@ -7,6 +7,11 @@
     height: 69px;
     background: linear-gradient(270.17deg, rgba(0, 0, 0, 0.96) -8.73%, rgba(255, 136, 0, 0.980784) 21.28%, #FF8800 49.03%, #FF7700 78.48%);
 }
+.logo{
+    position: absolute;
+    left: -1000px;
+    top: 10px;
+}
 .nav img{
     display: flex;
     justify-content: start;
@@ -26,7 +31,7 @@
     background-image: linear-gradient(to right,#000000,#444141,#000000);
     padding: 10px;
     margin-right: 60px;
-    font-size: 20px;
+    font-size: 25px;
 }
 .navbar svg{
     margin-right: 40px;
@@ -86,7 +91,7 @@
         top:0px;
          margin-left: 0px;
     }
- 
+
 
 }
 @media screen and (max-width:600px) {

@@ -1,0 +1,101 @@
+.tradutor-btn, .tradutor-btn a{
+    color: #fffdf1;
+    font-weight: 800;
+}
+
+.cards-tradutors{
+    display: grid;
+    grid-template-columns: repeat(4, 01fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-tradutors .b-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #000000, #2a2a2a, #000000 100% );
+    color: #fffdf1;
+    padding: 2px;
+    font-weight: 550;
+    box-shadow: 0 0 2.5px #131210, 0 0 7.5px #131210, 0 0 12.5px #131210, 0 0 25px #131210;
+}
+.btn-tradutor{
+    color: #fffdf1;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 3px solid #ff6600;
+    margin-left: 20px;
+    padding: 3px;
+}
+.btn-tradutor:hover{
+    color: #000000;
+    font-weight: 600;
+    border: none;
+    background-color: #ff6600;
+    padding: 4.65px;
+}
+.chat-tradutor{
+    color: #fffdf1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin: 20px 20px 20px 0;
+}
+.chat-tradutor svg{
+    color: #fffdf1;
+    
+}
+.chat-tradutor svg:hover{
+    color: #ff6600;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.card-add{
+    
+    width: 700px;
+    height: 700px;
+    margin: 100px 0 0 0px;
+    background-color: rgb(250, 186, 123);
+    border-radius: 20px;
+    box-shadow: 0 3px 3px #000;
+    text-align: center;
+}
+.card-body .group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.group label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.group input{
+    border-radius: 20px;
+    border: none;
+    padding: 4px 40px 4px 40px;
+    box-shadow: 2px 2px 3px #000;
+    margin: 7px 0 13px 0 ;
+}
+.btn-env{
+    color: #4e4e4c;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 3px solid #ff6600;
+    margin-top: 20px;
+    padding: 3px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.btn-env:hover{
+    color: #000000;
+    border: none;
+    background-color: #ff6600;
+    padding: 6px;
+}

@@ -8,7 +8,8 @@ import Documentação from '../pages/Document/index';
 import Documentacion from '../pages/Document/esindex.js';
 import Duvidas from '../pages/Duvidas/index'; 
 import Preguntas from '../pages/Duvidas/esindex.js';
-import Tradutors from '../pages/Tradutors';
+import TradutorComponent from '../pages/Tradutors';
+import CreateTradutorComponent from '../pages/Tradutors/add-tradutor';
 import Home from '../pages/Home';
 import Chat from '../pages/Chat';
 
@@ -23,7 +24,8 @@ export default function Routes() {
       <Route  path='/preguntas' component={Preguntas}/>
       <Route  path='/login' component={Login}/>
       <Route  path='/register' component={Register}/>
-      <Route  path='/tradutors' isPrivate component={Tradutors}/>
+      <Route  path='/tradutors' isPrivate component={TradutorComponent}/>
+      <Route  path='/add-tradutor' isPrivate component={CreateTradutorComponent}/>
       <Route  path='/chat' isPrivate component={Chat}/>
    </Switch>
  );

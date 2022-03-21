@@ -49,9 +49,9 @@ export default function AboutUs() {
         <div className='how'>
             <h4>Como?</h4>
         <hr/>
-        <span> Rifugô foi o site que criamos para que a desinformação<br/> ou a barreira linguística não seja um problema para os refugiados.<br/>
-         O site conta com APIs para geolocalização e tradução,<br/>
-            também conta com tradutores voluntários<br /> para melhor comunicação. </span>
+        <span> Rifugô foi o site que criamos para que a desinformação<br/> </span> <span>ou a barreira linguística não seja um problema para os refugiados.<br/>
+        </span> <span> O site conta com APIs para geolocalização e tradução,<br/>
+        </span> <span> também conta com tradutores voluntários<br /></span> <span> para melhor comunicação. </span>
             </div>
             <div className='about-logo2'>
                <img src={logo2}/>

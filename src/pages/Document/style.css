@@ -43,4 +43,38 @@ top: 563px;
         border-color: transparent;
     }
 }
-
+@media screen and (max-width:1440px) {
+    .logo3{
+        position: absolute;
+    width: 185px;
+    height: 354px;
+    left: 1189px;
+    top: 563px;
+    }
+}
+@media screen and (max-width:1230px) {
+    .logo3{
+     display: none;
+    }
+    .doc span{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:800px) {
+   .doc{
+    margin-bottom: 40px;
+   }
+   
+    .doc span{
+        font-size: 12px;
+        
+    }
+    .doc h2{
+        font-size: 28px;
+    }
+    .doc h3{
+        font-size: 24px;
+        margin: 13px 0 10px 10px;
+        
+    }
+}

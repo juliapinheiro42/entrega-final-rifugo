@@ -12,7 +12,7 @@ class Login extends React.Component {
   }
   entrar = async () => {
    await axios
-   .post('http://localhost:8080/api/users/auth', {
+   .post('https://rifugo-application.herokuapp.com/api/users/auth', {
     email:  this.state.email,
     password: this.state.password 
    }).then(response => {

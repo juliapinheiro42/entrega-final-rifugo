@@ -8,7 +8,7 @@
 }
 .who h1, .who h4, .who hr, .who span,
 .how h1, .how h4, .how hr, .how span, .how br{
-    margin: 10px 0 0 10px;
+    margin: 10px 20px 0 20px;
     color: #fffdf1;
 }
  .who span, .why span, .how span{
@@ -43,11 +43,11 @@ font-size: 20px;
     position: relative;
 width: 269px;
 height: 515px;
-left: 722px;
+left: 882px;
 top: -380px;
 }
 .why h1, .why h4, .why hr, .why span{
-    margin: 10px 10px 0 0;
+    margin: 10px 20px 0 0;
     color: #fffdf1;
 }
 .mor-div h1{
@@ -205,4 +205,138 @@ top: -380px;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 2.5px #131210, 0 0 7.5px #131210, 0 0 12.5px #131210, 0 0 25px #131210;
+}
+
+@media screen and (max-width: 1500px) {
+    .about-logo2{
+        position: relative;
+    width: 269px;
+    height: 515px;
+    left: 622px;
+    top: -380px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .about-logo2{
+        position: relative;
+    width: 189px;
+    height: 305px;
+    left: 422px;
+    top: -380px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .about-logo2{
+        margin: 35px 20px 50px 0;
+        position: relative;
+    width: 159px;
+    height: 255px;
+    left: 0px;
+    top: -380px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    
+    .outer-div,
+    .inner-div {
+        height: 250px;
+        max-width: 150px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    
+    
+    
+    
+        .inner-div:hover .social-icon {
+            opacity: 1;
+            top: 0;
+        }
+    
+    .outer-div:hover .inner-div {
+        transform: rotateY(180deg);
+    }
+    
+  
+    .front {
+        cursor: pointer;
+        height: 100%;
+        background-image: linear-gradient(to left, #000000, #2a2a2a, #000000 100% );
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        border-radius: 5px;
+        box-shadow: 0 0 2.5px #131210, 0 0 7.5px #131210, 0 0 12.5px #131210, 0 0 25px #131210;
+    }
+    
+    .front__bkg-photo {
+        position: relative;
+        height: 50px;
+        width: 100px;
+    }
+    
+      
+    
+    .front__face-photo {
+        position: relative;
+        top: -40px;
+        height: 80px;
+        width: 80px;
+    }
+    .front__face-photo img{
+        width: 80px;
+    }
+    
+    .front__text {
+        position: relative;
+        top: -35px;
+        font-size: 16px;
+    }
+    
+        .front__text .front__text-header {
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+    
+        
+    
+    
+        .front__text .front__text-hover {
+            position: relative;
+            top: 10px;
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+            padding: 8px 11px;
+            
+        }
+       
+    
+    
+}
+@media screen and (max-width: 650px) {
+    .about-logo2{
+     display: none;
+    }
+    .how{
+        margin-bottom: 300px;
+    }
+}
+@media screen and (max-width: 490px) {
+    .rowcard{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .outer-div,
+    .inner-div {
+        height: 250px;
+        max-width: 150px;
+        margin-bottom: 20px;
+        position: relative;
+    }
 }
