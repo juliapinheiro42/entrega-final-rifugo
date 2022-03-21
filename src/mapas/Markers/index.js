@@ -180,6 +180,8 @@ export const Markers = () => {
                 icon={{uri: "https://img.icons8.com/plasticine/2x/show-permit-card.png"}}
             />
 
+            
+
         </MapView>
     );}
 

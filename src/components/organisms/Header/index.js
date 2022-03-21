@@ -5,7 +5,6 @@ import {
   HeaderGradient,
 } from './styles'
 import { colors } from '../../../styles/colors'
-import { CustomText,Logotipo } from '../../../components'
 
 
 export const Header = () => {

@@ -3,7 +3,6 @@ import {auth} from '../../services';
 import {
         createUserWithEmailAndPassword,
         signInWithEmailAndPassword,
-        signOut
         } from 'firebase/auth';
 import {
         View,
@@ -83,16 +82,8 @@ export const Loggin = ({navigation}) => {
     async function login(){
         await signInWithEmailAndPassword(auth,email,password)
         .then(value => {
-            alert('Login realizado com sucesso');
+            console.log('Login realizado com sucesso');
             navigation.navigate('Home');
-        })
-        .catch(error => console.error(error))
-    };
-
-    async function logout(){
-        await signOut(auth)
-        .then(() => {
-            console.log(alert('Loggout realizado com sucesso'))
         })
         .catch(error => console.error(error))
     };

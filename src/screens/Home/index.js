@@ -1,5 +1,8 @@
 import React from "react";
 import {ScreenScrollContainer,HomeList,Header} from '../../components'
+import {StyleSheet,TouchableOpacity,Text} from 'react-native'
+import {auth} from '../../services'
+import {signOut} from 'firebase/auth'
 
 
 
@@ -61,13 +64,40 @@ const FAKE_DATA_ABRIGOS = [{
   }
 ]
 
-export const Home = () =>{
+export const Home = ({navigation}) =>{
+  async function logout(){
+    await signOut(auth)
+    .then(() => {
+        console.log('Loggout realizado com sucesso');
+        navigation.navigate('Loggin');
+    })
+    .catch(error => console.error(error))
+  };
     return(
         <ScreenScrollContainer>
             <Header/>
             <HomeList title="Principais Serviços" data={FAKE_DATA_SERVICOS_PUBLICOS} />
             <HomeList title="ONG's de ajuda" data={FAKE_DATA_ONGS}/>
             <HomeList title="Acolhimento" data={FAKE_DATA_ABRIGOS}/>
+            <TouchableOpacity 
+              style={styles.btnSubmit}
+              onPress={()=>{logout()}}
+            >
+                <Text>Loggout</Text>
+            </TouchableOpacity>
         </ScreenScrollContainer>
     )
 }
+
+const styles = StyleSheet.create({
+  btnSubmit:{
+    backgroundColor: '#FF6600',
+    width: '90%',
+    height: 45,
+    alignItems:'center',
+    justifyContent:'center',
+    borderRadius:7,
+    marginLeft:20,
+    marginBottom:10,
+ },
+})
