@@ -5,16 +5,14 @@ import {
   HeaderGradient,
 } from './styles'
 import { colors } from '../../../styles/colors'
-
+import LogoHeader from '../../../../assets/LogoHeader.png'
 
 export const Header = () => {
   return (
     <HeaderContainer>
       
       <HeaderImageBackground
-        source={{
-          uri: 'https://media.istockphoto.com/photos/refugees-welcome-banner-hanging-on-madrids-town-hall-building-picture-id866182814?s=612x612',
-        }}
+        source={LogoHeader}
       >
 
       </HeaderImageBackground>
