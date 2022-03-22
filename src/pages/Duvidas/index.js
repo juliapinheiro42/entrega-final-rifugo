@@ -112,7 +112,7 @@ export default function Duvidas() {
         </div>
         <br/>
         <br/>
-
+        <br className='d-block d-lg-none'/>
         <div className='doc duv pt-5 mt-5'>
             <h3>Entrevistas de Elegibilidade</h3>
             <h5>1) Posso escolher o modo de realização da entrevista (presencial ou online)?</h5>
@@ -146,6 +146,7 @@ export default function Duvidas() {
             pois você possui autorização provisória de residência até a decisão final do Conare (art. 156, §3º, do Decreto nº 9.199/2017 e art. 21 da Lei nº 9.474, de 1997).
            </span>
            </div>
+           <br className='d-block d-lg-none'/>
            <br className='d-block d-lg-none'/>
            <br className='d-block d-lg-none'/>
         <div className='doc duv'>
