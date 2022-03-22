@@ -1,10 +1,15 @@
-import React,{useState,useEffect}from "react";
-import {StyleSheet,
+import React,{
+            useState,
+            useEffect
+        }from "react";
+import {
+        StyleSheet,
         TouchableOpacity,
         Animated,
         Linking,
         } from 'react-native'
-import {SobreContainer,
+import {
+        SobreContainer,
         Gradient,
         LogoContainer,
         TextContainer,
@@ -14,6 +19,7 @@ import { colors } from '../../styles/colors'
 import {Logotipo} from '../../components'
 
 export const Sobre = ({navigation}) =>{
+
     const AnimatedTouchable = Animated.createAnimatedComponent(TouchableOpacity);
     const AnimatedTextContainer = Animated.createAnimatedComponent(TextContainer);
     const [offSet] = useState(new Animated.ValueXY({x:0,y:90}));
@@ -128,7 +134,13 @@ export const Sobre = ({navigation}) =>{
                             ]
                           }]]}
                     >
-                        <Animated.Text style={styles.inputText}>Gostou? clique aqui e visite nosso site!</Animated.Text>
+                        <Animated.Text 
+                            style={styles.inputText}
+                            onPress={()=>{
+                                Linking.openURL('https://rifugoweb.netlify.app/'); 
+                            }}
+                        >
+                            Gostou? clique aqui e visite nosso site!</Animated.Text>
                     </AnimatedTouchable>
                     <Animated.View style={styles.iconStyles}>
                     <FontAwesome.Button 

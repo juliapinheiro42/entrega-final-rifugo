@@ -1,4 +1,7 @@
-import React,{useState,useEffect} from "react";
+import React,{
+            useState,
+            useEffect
+            } from "react";
 import {auth} from '../../services';
 import {
         createUserWithEmailAndPassword,
@@ -7,7 +10,6 @@ import {
 import {
         View,
         KeyboardAvoidingView,
-        Image,
         Text,
         TextInput,
         TouchableOpacity,
@@ -73,7 +75,7 @@ export const Loggin = ({navigation}) => {
 
     async function createUser(){
         await createUserWithEmailAndPassword(auth,email,password)
-        .then(value => {
+        .then(() => {
             alert('cadastrado com sucesso!\n' /*+ value.user.uid*/);
         })
         .catch(error => console.error(error))
@@ -81,7 +83,7 @@ export const Loggin = ({navigation}) => {
 
     async function login(){
         await signInWithEmailAndPassword(auth,email,password)
-        .then(value => {
+        .then(() => {
             console.log('Login realizado com sucesso');
             navigation.navigate('Home');
         })
@@ -93,10 +95,18 @@ export const Loggin = ({navigation}) => {
             <View style={styles.containerLogo}>
                 <Animated.Image
                     source={require('../../../assets/refugio.png')}
-                    style={{
+                    style={[{
                         width: logo.x,
                         height: logo.y,
-                    }}
+                    },[{
+                        opacity: opacity,
+                        transform: [
+                            {
+                
+                                translateY: offSet.y
+                            }
+                        ]
+                      }]]}
                 />
             </View>
 
