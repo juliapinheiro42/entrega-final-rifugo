@@ -107,7 +107,8 @@ export default function Preguntas() {
                  <span> RECUERDE: el DPRNM tiene una vigencia de un año y debe ser renovado anualmente por la Policía Federal.</span>
         </div>
         </div>
-    
+        <br className='d-block d-lg-none'/>
+        <br className='d-block d-lg-none'/>
     <div className='doc duv pt-5'>
             <h3 class=" d-flex justify-content-start ml-3 ">Entrevista de elegibilidad</h3>
             <h5 class="ml-3 justify-content-start">¿Puedo elegir el método de realización de la entrevista (presencial u online)?</h5>
