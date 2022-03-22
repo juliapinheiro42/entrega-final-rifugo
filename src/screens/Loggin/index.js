@@ -98,15 +98,7 @@ export const Loggin = ({navigation}) => {
                     style={[{
                         width: logo.x,
                         height: logo.y,
-                    },[{
-                        opacity: opacity,
-                        transform: [
-                            {
-                
-                                translateY: offSet.y
-                            }
-                        ]
-                      }]]}
+                    }]}
                 />
             </View>
 
