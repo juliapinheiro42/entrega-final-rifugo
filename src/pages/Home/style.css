@@ -438,6 +438,13 @@ svg{
         top:0px;
     
         } 
+        .words{
+            
+            left: 42px;
+            top: 681px;
+            font-size: 16px;
+        
+            }
 }
 @media screen and (max-width:1140px) {
     .logo2{
@@ -498,13 +505,11 @@ svg{
 
         }
         .words{
-            color: #fffdf1;
-             position: absolute;
+            
             left: 42px;
             top: 681px;
-            font-family: Roboto;
             font-size: 16px;
-           text-align: center;
+        
             }
             .words h2, .words h5 {
                 padding-top: 10px;
