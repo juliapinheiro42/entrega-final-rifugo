@@ -99,3 +99,12 @@
 
 
 }
+@media screen and (max-width:400px) {
+    .logo{
+        left: 200px;
+        top:0px;
+         margin-left: 0px;
+    }
+ 
+
+}
