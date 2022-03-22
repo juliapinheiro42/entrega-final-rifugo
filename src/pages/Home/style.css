@@ -434,15 +434,18 @@ svg{
         }
 @media screen and (max-width:1440px) {
     .logo2{
-        left: 940px;
-        top:0px;
+        left: 890px;
+        top:-50px;
     
         } 
+        .logo2 img{
+            height:250px ;
+        }
         .words{
             
             left: 42px;
             top: 751px;
-            font-size: 16px;
+            font-size: 14px;
         
             }
 }
