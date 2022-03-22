@@ -2,7 +2,6 @@ import React from 'react';
 import './style.css';
 import { Link} from 'react-router-dom';
 import axios from 'axios';
-
 class Login extends React.Component {
     
   state = {
@@ -32,6 +31,7 @@ class Login extends React.Component {
 render(){
     return (
       <div className="container-sign ">
+       
         <div className="login">
           <div className="login-area">
             <h1>RIFUĜO</h1>
@@ -54,6 +54,7 @@ render(){
           </form>  
   
           <Link to="/register">Criar uma conta</Link>
+          <Link to="/">Cancelar</Link>
         </div>
       </div>
     );
