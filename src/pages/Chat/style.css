@@ -118,6 +118,7 @@ box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
     padding: 4px 40px 4px 40px;
     border-radius: 16px;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 550px) {
     .registre{
         display: flex;
@@ -130,6 +131,8 @@ box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
         margin: 400px 0 ;
     }
 }
+=======
+>>>>>>> e71f41bc80c60283c4cc869f77d2ffacc4bddc95
 @media screen and (max-width:1030px) {
     .member-list {
     font-size: 10px;

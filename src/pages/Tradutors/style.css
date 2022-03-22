@@ -100,6 +100,25 @@
     padding: 6px;
 }
 @media screen and (max-width:320px) {
+<<<<<<< HEAD
+=======
+    .cards-tradutors .b-card{
+        padding:2px 20px 2px 20px;
+       
+    }
+    .btn-tradutor{
+        margin-left: 10px;
+        padding: 0;
+    }
+    .btn-tradutor:hover{
+        padding: 0;
+    }
+    .cards-tradutors{
+       font-size: 10px;
+    }
+}
+@media screen and (max-width:320px) {
+>>>>>>> e71f41bc80c60283c4cc869f77d2ffacc4bddc95
     .card-add{
         width: 250px;
         height: 400px;
@@ -139,6 +158,11 @@
     .cards-tradutors{
        font-size: 10px;
     }
+<<<<<<< HEAD
+=======
+}
+@media screen and (max-width:375px) {
+>>>>>>> e71f41bc80c60283c4cc869f77d2ffacc4bddc95
     .card-add{
         width: 250px;
         height: 400px;
@@ -178,6 +202,11 @@
     .cards-tradutors{
        font-size: 10px;
     }
+<<<<<<< HEAD
+=======
+}
+@media screen and (max-width:1024px) {
+>>>>>>> e71f41bc80c60283c4cc869f77d2ffacc4bddc95
     .card-add{
         width: 325px;
         height: 400px;
@@ -201,4 +230,9 @@
     .btn-env:hover{
         padding: 0;
     }
+<<<<<<< HEAD
 }
+=======
+}
+ 
+>>>>>>> e71f41bc80c60283c4cc869f77d2ffacc4bddc95
