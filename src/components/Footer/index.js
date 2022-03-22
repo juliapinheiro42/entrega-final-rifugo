@@ -16,13 +16,13 @@ export default function Footer() {
     </div>
     <div className='explore'>
         <h3 className='pr-3'>informações</h3>
-        <a href=''>Polícia federal</a>
-        <a  href=''>CAMI</a>
-        <a  href=''>Adus</a>
-        <a  href=''>Refúgio343</a>
-        <a  href=''>ACNUR</a>
-        <a  href=''>UNHCR</a>
-        <a  href=''>Portal de imigração</a>
+        <a href='https://www.gov.br/pf/pt-br' target='_blank'>Polícia federal</a>
+        <a  href='https://www.cami.org.br/' target='_blank'>CAMI</a>
+        <a  href='https://adus.org.br/?gclid=Cj0KCQjw5-WRBhCKARIsAAId9FmTVeapq-a_pEKxhB_CUayRDysOExzEaCfu0DLrYL83OLpjdu_HclIaAp-GEALw_wcB' target='_blank'>Adus</a>
+        <a  href='https://refugio343.org/' target='_blank'>Refúgio343</a>
+        <a  href='https://doar.acnur.org/acnur/donate.html' target='_blank'>ACNUR</a>
+        <a  href='https://www.unhcr.org/' target='_blank'>UNHCR</a>
+        <a  href='https://portaldeimigracao.mj.gov.br/pt/' target='_blank'>Portal de imigração</a>
     </div>
     <div className='about-footer'>
         <h3>Sobre</h3>
@@ -34,15 +34,15 @@ export default function Footer() {
     </div>
     <div className='help'>
         <h3>AJUDA</h3>
-        <a  href=''>Suporte</a>
-        <a  href=''>FAQs</a>
+        <a  href='' target='_blank'>Suporte</a>
+        <a  href='' target='_blank'>FAQs</a>
     </div>
     <div className='logos'>
         <h4>Siga nossas redes sociais</h4>
-    <InstagramIcon  href='' fontSize="large"/>
-    <FacebookIcon  href='' fontSize="large"/>
-    <LinkedInIcon  href='' fontSize="large"/>
-    <YouTubeIcon  href='' fontSize="large"/>
+    <InstagramIcon  href='https://www.instagram.com/rifugosocial/' fontSize="large" target='_blank'/>
+    <FacebookIcon  href='https://www.facebook.com/profile.php?id=100079766552504' fontSize="large" target='_blank'/>
+    <LinkedInIcon  href='' fontSize="large" target='_blank'/>
+    <YouTubeIcon  href='https://youtu.be/56l3gqoDmdI' fontSize="large" target='_blank'/>
         </div>
    </div>
  );

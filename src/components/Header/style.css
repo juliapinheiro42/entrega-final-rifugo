@@ -42,7 +42,7 @@
     .navbar a{
         padding: 10px;
         margin-right: 40px;
-        font-size: 20px;
+        font-size: 16px;
     }
     .logo img{
         width: 190.24px;
@@ -57,7 +57,7 @@
         margin-right: 200px;
     }
     .navbar a{
-
+        font-size: 15px;
         padding: 10px;
         margin-right: 0px;
     }

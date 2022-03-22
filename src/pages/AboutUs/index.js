@@ -15,13 +15,13 @@ export default function AboutUs() {
    <div className='animation'>
     <div className='frase'>
         <h1> Ajude na quebra <br/>da barreira linguística</h1>
-        <a href="#">
+        <Link to='/tradutors'>
           <span></span>
           <span></span>
           <span></span>
           <span></span>
           Clique aqui
-          </a>
+          </Link>
        </div>
        <div  className='circle'></div>
        <svg>
