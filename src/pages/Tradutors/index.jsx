@@ -35,7 +35,7 @@ class TradutorComponent extends Component {
     }
 
     addTradutor(){
-        this.props.history.push('/add-tradutor/_add');
+        this.props.history.push(`/add-tradutor/_add`);
     }
 
     render() {
@@ -62,7 +62,6 @@ class TradutorComponent extends Component {
                 <Card.Img variant="top" src={img} />
             
                 <Card.Body className=''>
-              
                 <Card.Title className='text-center' >{ tradutor.name}</Card.Title>
                 <Card.Text className='text-center'>
                  {tradutor.email}

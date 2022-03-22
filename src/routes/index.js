@@ -25,7 +25,7 @@ export default function Routes() {
       <Route  path='/login' component={Login}/>
       <Route  path='/register' component={Register}/>
       <Route  path='/tradutors' isPrivate component={TradutorComponent}/>
-      <Route  path='/add-tradutor' isPrivate component={CreateTradutorComponent}/>
+      <Route  path='/add-tradutor/:id' isPrivate component={CreateTradutorComponent}/>
       <Route  path='/chat' isPrivate component={Chat}/>
    </Switch>
  );

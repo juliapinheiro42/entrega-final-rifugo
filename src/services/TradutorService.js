@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const TRADUTOR_API_BASE_URL = axios.create({ baseURL:"https://rifugo-application.herokuapp.com/api/tradutor",})
+const TRADUTOR_API_BASE_URL = "https://rifugo-application.herokuapp.com/api/tradutor";
 
 class TradutorService {
 
@@ -8,16 +8,16 @@ class TradutorService {
 return axios.get(TRADUTOR_API_BASE_URL);
 }
 
- createTradutor(tradutors){
-return axios.post(TRADUTOR_API_BASE_URL, tradutors);
+ createTradutor(tradutor){
+return axios.post(TRADUTOR_API_BASE_URL, tradutor);
 }
 
  getTradutorById(tradutorId){
 return axios.get(TRADUTOR_API_BASE_URL + '/' + tradutorId);
 }
 
- updateTradutor(tradutors, tradutorId){
-return axios.put(TRADUTOR_API_BASE_URL + '/' + tradutorId, tradutors);
+ updateTradutor(tradutor, tradutorId){
+return axios.put(TRADUTOR_API_BASE_URL + '/' + tradutorId, tradutor);
 }
 
  deleteTradutor(tradutorId){
@@ -25,4 +25,4 @@ return axios.delete(TRADUTOR_API_BASE_URL + '/' + tradutorId);
 }
 }
 
-export default new TradutorService();
+export default new TradutorService()

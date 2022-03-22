@@ -3,6 +3,7 @@ import TradutorService from '../../services/TradutorService';
 import './style.css';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+
 class CreateTradutorComponent extends Component {
 
     constructor(props) {
@@ -10,7 +11,7 @@ class CreateTradutorComponent extends Component {
 
         this.state = {
             // step 2
-            id: this.props.match.params.id,
+            id: this.props.match.params.id ,
             name: '',
             email: '',
             cont: ''
@@ -95,7 +96,7 @@ class CreateTradutorComponent extends Component {
                                         </div>
                                         <div className = "group">
                                             <label> Email: </label>
-                                            <input placeholder="email" name="price" className="control" 
+                                            <input placeholder="email" name="email" className="control" 
                                                 value={this.state.email} onChange={this.changeEmailHandler}/>
                                         </div>
                                         <div className = "group">
