@@ -67,6 +67,7 @@ export default function Document() {
                 Com este protocolo você terá direito a obter <b>CARTEIRA DE TRABALHO</b> (CTPS) e <b>CADASTRO DE PESSOA FÍSICA</b> (CPF) </span> <br/> <span> e acessar todos os serviços públicos disponíveis no Brasil.
             </span>
         </div>
+        
         <div>
             <span>
                 Terá o direito de ser entrevistado pessoalmente por um funcionário do CONARE</span> <br/> <span>ou da Defensoria Pública da União, do sexo que você preferir, que lhe perguntará em detalhes os motivos que o levaram a sair do seu país.

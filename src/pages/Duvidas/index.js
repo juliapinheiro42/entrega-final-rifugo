@@ -64,6 +64,8 @@ export default function Duvidas() {
                <img src={logo2}/>
             </div>
         </div>
+        <br/>
+        <br/>
     <div class="doc duv">
         <h3 class=" d-flex justify-content-start ml-3 ">Sou solicitante do refúgio. E agora?</h3>
         <h5 class="ml-3 justify-content-start">1)O que é o Protocolo de Refúgio? Qual sua validade e como renová-lo?</h5>
@@ -108,6 +110,9 @@ export default function Duvidas() {
                   <br/>
                  <span> LEMBRE-SE: o DPRNM possui validade de um ano, e deve ser renovado anualmente na Polícia Federal.</span>
         </div>
+        <br/>
+        <br/>
+
         <div className='doc duv pt-5 mt-5'>
             <h3>Entrevistas de Elegibilidade</h3>
             <h5>1) Posso escolher o modo de realização da entrevista (presencial ou online)?</h5>
@@ -141,6 +146,8 @@ export default function Duvidas() {
             pois você possui autorização provisória de residência até a decisão final do Conare (art. 156, §3º, do Decreto nº 9.199/2017 e art. 21 da Lei nº 9.474, de 1997).
            </span>
            </div>
+           <br className='d-block d-lg-none'/>
+           <br className='d-block d-lg-none'/>
         <div className='doc duv'>
         <h3 class=" d-flex justify-content-start ml-3">Mercado de trabalho</h3>
         <h5 class="ml-3 justify-content-start">1)Como obter acesso a Carteira de Trabalho Digital?</h5>
