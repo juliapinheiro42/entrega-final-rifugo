@@ -32,4 +32,5 @@ export const TextContainer = styled.View `
     margin-top: 20px;
     marginBottom:10px;
     borderWidth:4px;
+    borderRadius:15;
 `;
