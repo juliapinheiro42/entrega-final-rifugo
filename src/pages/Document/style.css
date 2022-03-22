@@ -57,6 +57,19 @@ top: 563px;
         width: 185px;
         height: 254px;
     }
+    .doc h2, .doc h3, .doc h4, .doc h5{
+        font-size: 20px;
+          padding: 20px 0 15px 15px;
+      }
+      .doc h5{
+          font-size: 15px;
+      }
+      .doc span, .doc li{
+         font-weight: bold;
+         font-size: 14px;
+          margin-left: 15px;
+          
+      }
 }
 @media screen and (max-width:1230px) {
     .logo3{
