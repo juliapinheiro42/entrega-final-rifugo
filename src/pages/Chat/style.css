@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
 }
 .registre{
     display: flex;
@@ -117,4 +118,135 @@ box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
     padding: 4px 40px 4px 40px;
     border-radius: 16px;
 }
+@media screen and (max-width: 550px) {
+    .registre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color:rgb(245, 179, 113) ;
+        width: 70%;
+        height: 600px;
+        margin: 400px 0 ;
+    }
+}
+@media screen and (max-width:1030px) {
+    .member-list {
+    font-size: 10px;
+    width: 95%;
+    margin-right: 20px;
+    height:96% ;
+    }
+    .chat-box{  
+     width: 80%;
+     padding: 10px;
+    }
+    .member-list li{
+        margin-right: 15px;
+    }
+    .chat-content{
+        height: 96%;
+        width: 98%; 
+    }
+}
+@media screen and (max-width:768px) {
+    .member-list {
+    font-size: 10px;
+    width: 95%;
+    margin-right: 20px;
+    height:96% ;
+    }
+    .chat-box{  
+     width: 80%;
+     padding: 10px;
+    }
+    .member-list li{
+        margin-right: 15px;
+    }
+    .chat-content{
+        height: 96%;
+        width: 98%;
+        margin: 0px 100px 0 0; 
+    }
+}
+@media screen and (max-width:425px) {
+    .member-list {
+    width: 1%;
+    margin-right: 20px;
+    height:96% ;
+    background-color:transparent;
+    box-shadow: none;
+    }
+    .chat-box{  
+     width: 90%;
+     padding: 10px;
+     margin: 50px 0 30px 0;
+     display: flex;
+     justify-content: center;
+    }
+    .member-list li{
+        margin-right: 30px;
+        justify-content: start;
+        font-size: 10px;
+    }
+    .chat-content{
+        height: 96%;
+        width: 98%;
+       margin: 0 10px 0 0px;
+    }
+    .navli{
+        margin-right: 10px;
 
+    }
+    .chat-content input{
+       
+        padding: 4px 30px 4px 30px;
+        margin-right: 10px;
+       
+    }
+    .chat-content button{
+        padding: 6px;
+       margin-left: 4px;
+    }
+}
+@media screen and (max-width:375px) {
+    .chat-content input{
+       
+        margin-left: 10px;
+        padding: 4px 25px 4px 25px;
+    }
+    .chat-content button{
+        padding: 6px;
+       margin-left: 10px;
+    }
+}
+@media screen and (max-width:900px) {
+    .member-list {
+    font-size: 10px;
+    width: 95%;
+    margin-right: 20px;
+    height:96% ;
+    }
+    .chat-box{  
+     width: 80%;
+     padding: 10px;
+    }
+    .member-list li{
+        margin-right: 15px;
+    }
+    .chat-content{
+        height: 96%;
+        width: 98%;
+        margin: 0px 100px 0 0; 
+    }
+}
+@media screen and (max-width:1500px) {
+    .member-list li{
+        margin-right: 40px;
+        font-size: 20px;
+    }
+    .chat-content{
+        
+        margin: 0px 200px 0 0; 
+    }
+}

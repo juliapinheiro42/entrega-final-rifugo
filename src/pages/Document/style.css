@@ -20,10 +20,13 @@ margin-bottom: 10px;
 }
 .logo3{
     position: absolute;
-width: 185px;
-height: 354px;
+
 left: 1289px;
 top: 563px;
+}
+.logo3 img{
+    width: 385px;
+    height: 354px;
 }
  .doc h2{
     width: 45ch;
@@ -46,10 +49,13 @@ top: 563px;
 @media screen and (max-width:1440px) {
     .logo3{
         position: absolute;
-    width: 185px;
-    height: 354px;
+   
     left: 1189px;
     top: 563px;
+    }
+    .logo3 img{
+        width: 185px;
+        height: 254px;
     }
 }
 @media screen and (max-width:1230px) {
@@ -67,14 +73,53 @@ top: 563px;
    
     .doc span{
         font-size: 12px;
-        
+        margin-bottom: 0;
     }
     .doc h2{
         font-size: 28px;
     }
     .doc h3{
         font-size: 24px;
-        margin: 13px 0 10px 10px;
+        margin: 50px 0 10px 10px;
         
     }
+    
 }
+@media screen and (max-width: 600px) {
+    .doc h2{
+        width: 40ch;
+        animation: none;
+        white-space: none;
+        overflow: none;
+        border-right: none;
+    
+    }
+    .doc{
+        margin-bottom: 40px;
+       }
+       
+       
+}
+@media screen and (max-width:400px) {
+    .doc{
+     margin-bottom: 40px;
+    }
+    
+     .doc span, .doc li, ul{
+         font-size: 10px;
+         margin: 5px ;
+     }
+     .doc h2{
+         font-size: 16px;
+         margin: 5px;
+     }
+     .doc h3{
+         font-size: 14px;
+         margin: 50px 10px 10px 10px;
+         
+     }
+     .doc h4, .doc h5{
+        font-size: 14px;
+     }
+     
+ }

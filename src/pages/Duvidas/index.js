@@ -90,7 +90,7 @@ export default function Duvidas() {
        ou no momento em que for renovar o Protocolo de Refúgio.
             </span>
             <br/>
-            <span className="d-none d-lg-flex">
+            <span className="pb-3">
             Ou seja: o solicitante não precisa adotar nenhuma medida adicional: caso queira pedir refúgio pela primeira vez, deverá cadastrar-se no Sisconare </span> <br/> <span className="ml-3 justify-content-start d-lg-block d-none">
                 e preencher o formulário de solicitação de reconhecimento da condição de refugiado; </span> <br/>
                  <span className="d-none d-lg-flex">
@@ -106,9 +106,9 @@ export default function Duvidas() {
                  <span className="d-none d-lg-flex">O DPRNM, previsto no Decreto nº 9.277/2018, passou a ser o documento de identificação de solicitantes de refúgio, em substituição do Protocolo de Refúgio.</span>
 
                   <br/>
-                 <span className="d-none d-lg-flex"> LEMBRE-SE: o DPRNM possui validade de um ano, e deve ser renovado anualmente na Polícia Federal.</span>
+                 <span> LEMBRE-SE: o DPRNM possui validade de um ano, e deve ser renovado anualmente na Polícia Federal.</span>
         </div>
-        <div className='doc duv'>
+        <div className='doc duv pt-5 mt-5'>
             <h3>Entrevistas de Elegibilidade</h3>
             <h5>1) Posso escolher o modo de realização da entrevista (presencial ou online)?</h5>
             <span>

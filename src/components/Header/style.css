@@ -8,16 +8,16 @@
     background: linear-gradient(270.17deg, rgba(0, 0, 0, 0.96) -8.73%, rgba(255, 136, 0, 0.980784) 21.28%, #FF8800 49.03%, #FF7700 78.48%);
 }
 .logo{
-    position: absolute;
-    left: -1000px;
-    top: 10px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
 }
-.nav img{
+.logo img{
     display: flex;
     justify-content: start;
     width: 258.24px;
     height: 44.38px;
-     margin-right: 300px;
+     margin-right: 500px;
 }
 
 
@@ -44,16 +44,21 @@
         margin-right: 40px;
         font-size: 20px;
     }
+    .logo img{
+        width: 190.24px;
+        height: 44.38px;
+        margin-right: 400px;
+    }
 }
 @media screen and (max-width:1040px) {
     .logo img{
         width: 190.24px;
         height: 44.38px;
-    
+        margin-right: 200px;
     }
     .navbar a{
 
-        padding: 4px;
+        padding: 10px;
         margin-right: 0px;
     }
     .navbar svg{

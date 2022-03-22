@@ -23,7 +23,7 @@ export default function Home() {
           </a>
        </div>
        <div  className='circle'></div>
-       <svg>
+       <svg className='d-none d-md-flex'>
          <filter id="wavy">
            <feTurbulence x="0" y="0" baseFrequency="0.009" numOctaves="5" seed="2">
             <animate attributeName="baseFrequency" dur="60s" values="0.02;0.005;0.02" repeatCount="indefinite"></animate>

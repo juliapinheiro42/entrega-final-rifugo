@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const TRADUTOR_API_BASE_URL = "https://rifugo-application.herokuapp.com/api/tradutor";
+const TRADUTOR_API_BASE_URL = axios.create({ baseURL:"https://rifugo-application.herokuapp.com/api/tradutor",})
 
 class TradutorService {
 

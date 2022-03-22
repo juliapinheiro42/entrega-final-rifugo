@@ -17,6 +17,7 @@
   margin: 0 0 20px 20px;
 }
 .frase a{
+    font-size: 20px;
 position: relative;
 display: inline-block;
 padding: 10px 20px;
@@ -320,7 +321,7 @@ svg{
     color: #fffdf1;
      position: absolute;
     left: 42px;
-    top: 781px;
+    top: 981px;
     font-family: Roboto;
     font-size: 20px;
    text-align: center;
@@ -514,29 +515,10 @@ svg{
             display: none;
         }
         .circle{
-            width:250px;
-            height:250px;
-            margin-right: 50px;
+            display: none;
     
         }
-        .circle::before{
-            content:'';
-            position: absolute;
-            top: 45px;
-            left: -30px;
-            right:-30px;
-            bottom: 45px;
-
-        }
-        
-        .circle::after{
-            content:'';
-            position: absolute;
-            top: 45px;
-            left: -30px;
-            right:-30px;
-            bottom: 45px;         
-        }
+       
         .frase{
             display: flex;
             flex-direction: column;
@@ -547,8 +529,8 @@ svg{
         .words{
             color: #fffdf1;
              position: absolute;
-            left: 42px;
-            top: 581px;
+            left: 22px;
+            top: 431px;
             font-family: Roboto;
             font-size: 14px;
            text-align: center;
@@ -559,13 +541,14 @@ svg{
             }
             .frase h1 {
                 color: #ff6600;
-              margin: 0 0 10px 10px;
-              font-size: 20px;
+              margin: 0;
+              font-size: 18px;
             }
             .frase a{
                 font-size: 14px;
                 position: relative;
                 display: inline-block;
-                padding: 5px 10px;
+                padding: 2.5px 5px;
                 }
+
     }

@@ -84,12 +84,12 @@ export default function Document() {
         <div>
             <h4>Quais são os documentos necessários para solicitar o CPF?</h4>
             <span>Os maiores de 18 anos deverão apresentar o original ou a cópia autenticada do seu documento de identificação.</span> <br/>
-            <span> Os menores de 18 anos deverão apresentar o original ou a cópia autenticada do seu documento de identificação </span> <br/> <span> e o documento de identificação de um dos pais ou responsável.</span>
+            <span > Os menores de 18 anos deverão apresentar o original ou a cópia autenticada do seu documento de identificação e o documento de identificação de um dos pais ou responsável.</span>
         </div>
     </div>
     
-    <div className='doc'>
-        <h3>CARTEIRA DE TRABALHO E PREVIDÊNCIA SOCIAL (CTPS)</h3>
+    <div className='doc pt-2 pt-lg-0'>
+        <h3 className='mt-5 pt-5 pt-lg-0 mt-lg-o'>CARTEIRA DE TRABALHO E PREVIDÊNCIA SOCIAL (CTPS)</h3>
 
         <h4>O que é a CTPS e quem pode solicitá-la?</h4>
         <span>
@@ -110,7 +110,7 @@ export default function Document() {
             <li> Protocolo Provisório expedido pela Polícia Federal original acompanhado de cópia.</li>
         </ul>
         </div>
-        <div className='doc'>
+        <div className='doc pt-5'>
         <h3>SE O SEU PEDIDO DE REFÚGIO FOI NEGADO</h3>
             <span >
                 Apresentar um recurso para O Ministro da Justiça no prazo de <b>15 DIAS</b> contados a partir do recebimento da notificação.</span> <br/> <span>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../../components/Header';
 import { Link} from 'react-router-dom';
 import axios from 'axios';
 
@@ -16,7 +15,7 @@ class Register extends React.Component {
      name:  this.state.name,
     email:  this.state.email,
     password: this.state.password 
-   }).then(response => {
+   }).then( response => {
 
     this.props.history.push('/login')
   }).catch(error => {

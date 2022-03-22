@@ -9,6 +9,7 @@ height: 300px;
 background: linear-gradient(90deg, #000000 0%, #281602 95.61%);
 display: grid;
     grid-template-columns: repeat(5, 01fr);
+
 }
 .logo-footer{
     display: flex;
