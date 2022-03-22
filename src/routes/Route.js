@@ -6,14 +6,10 @@ component : Component,
 isPrivate,
 ...rest
 }) {
-const loading = false;
+
 const signed = true;
 
-if(loading){
-    <div>
- 
-    </div>
-}
+
 
 if(!signed && isPrivate){
     return <Redirect to='/login' />
