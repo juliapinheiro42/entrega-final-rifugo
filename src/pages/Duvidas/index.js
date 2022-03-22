@@ -146,9 +146,9 @@ export default function Duvidas() {
             pois você possui autorização provisória de residência até a decisão final do Conare (art. 156, §3º, do Decreto nº 9.199/2017 e art. 21 da Lei nº 9.474, de 1997).
            </span>
            </div>
-           <br className='d-block d-lg-none'/>
-           <br className='d-block d-lg-none'/>
-           <br className='d-block d-lg-none'/>
+           <br className='d-none d-md-block d-xl-none'/>
+           <br className='d-none d-md-block d-xl-none'/>
+           <br className='d-none d-md-block d-xl-none'/>
         <div className='doc duv'>
         <h3 class=" d-flex justify-content-start ml-3">Mercado de trabalho</h3>
         <h5 class="ml-3 justify-content-start">1)Como obter acesso a Carteira de Trabalho Digital?</h5>
