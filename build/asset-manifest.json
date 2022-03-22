@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.076f7d15.css",
+    "main.js": "/static/js/main.6573f6e7.js",
+    "static/media/Fabada-regular.otf": "/static/media/Fabada-regular.dbd78524203113ed7cdb.otf",
+    "static/media/img.svg": "/static/media/img.6b449ab867d2e4a0224c348798bb75f5.svg",
+    "static/media/logo2.svg": "/static/media/logo2.d4df3947ff57b46207b7b69ec848580d.svg",
+    "static/media/logo1.svg": "/static/media/logo1.e06d1e9f24c46750614eb18f3bc0c202.svg",
+    "index.html": "/index.html",
+    "main.076f7d15.css.map": "/static/css/main.076f7d15.css.map",
+    "main.6573f6e7.js.map": "/static/js/main.6573f6e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.076f7d15.css",
+    "static/js/main.6573f6e7.js"
+  ]
+}
