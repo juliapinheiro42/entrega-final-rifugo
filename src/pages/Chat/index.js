@@ -4,10 +4,12 @@ import SockJS from 'sockjs-client';
 import './style.css';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import { Collapse, NavbarToggler,Navbar, Nav} from 'reactstrap';
 var stompClient = null;
 
 const Chat = () => {
-
+    const [isOpen, setIsOpen] = useState(false);
+    const toggle = () => setIsOpen(!isOpen)
     const [publicChat, setPublicChat] = useState([]); 
     const [privateChats, setPrivateChats] = useState(new Map());
     const [tab,setTab] = useState("CHATROOM");
@@ -123,12 +125,20 @@ const onPrivateMessage = (payload)=>{
            <div className='chat-box'>
              <div className='member-list'>
              <ul>
+                 
+             <Navbar  dark expand="md" className='navli'>
+             <NavbarToggler onClick={toggle}/>
+                <Collapse isOpen={isOpen} navbar>
+                    <Nav  className='navbar'>
                  <li onClick={() => {setTab("CHATROOM")}} className={`member ${tab === "CHATROOM" && "active"}`}>Chatroom</li>
                  {[...privateChats.keys()].map((name, index) =>(
                       <li onClick={()=>{setTab(name)}} className={`member ${tab===name && "active"}`} key={index}>
                          {name} 
                       </li>
                  ))}
+                 </Nav>
+                 </Collapse>
+                 </Navbar>
              </ul>
              </div>
              {tab ==="CHATROOM" && <div className='chat-content'>
