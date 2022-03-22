@@ -12,7 +12,7 @@
     flex-direction: column;
     background-color:rgb(245, 179, 113) ;
     width: 40%;
-    height: 700px;
+    height: 800px;
     margin: 40px 0 ;
     border-radius: 20px;
 box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
@@ -51,11 +51,17 @@ box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
 .member-list{
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
     width: 80%;
     height: 100%;
     box-shadow: 0 6px 6px #000;
     border-radius: 20px;
     background-color: rgb(245, 179, 113);
+}
+.member-list .nav{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 .member-list li{
     font-size: 30px;
@@ -132,7 +138,7 @@ box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
     }
 }
 
-@media screen and (max-width:1030px) {
+@media screen and (max-width:1040px) {
     .member-list {
     font-size: 10px;
     width: 95%;
@@ -147,17 +153,18 @@ box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
         margin-right: 15px;
     }
     .chat-content{
-        height: 96%;
+        height: 86%;
         width: 98%; 
     }
 }
 @media screen and (max-width:768px) {
     .member-list {
     font-size: 10px;
-    width: 95%;
+    width: 100%;
     margin-right: 20px;
     height:96% ;
     }
+   
     .chat-box{  
      width: 80%;
      padding: 10px;
@@ -166,9 +173,9 @@ box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
         margin-right: 15px;
     }
     .chat-content{
-        height: 96%;
-        width: 98%;
-        margin: 0px 100px 0 0; 
+        height: 56%;
+        width: 70%;
+        margin: 0 ; 
     }
 }
 @media screen and (max-width:425px) {
@@ -178,6 +185,11 @@ box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
     height:96% ;
     background-color:transparent;
     box-shadow: none;
+    }
+    .member-list .nav{
+        position: absolute;
+        top: 0;
+        left: 2220px;
     }
     .chat-box{  
      width: 90%;

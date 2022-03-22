@@ -123,3 +123,26 @@ top: 563px;
      }
      
  }
+ @media screen and (max-width:400px) {
+    .doc{
+     margin-bottom: 200px;
+    }
+    
+     .doc span, .doc li, ul{
+         font-size: 10px;
+         margin: 5px ;
+     }
+     .doc h2{
+         font-size: 16px;
+         margin: 5px;
+     }
+     .doc h3{
+         font-size: 14px;
+         margin: 50px 10px 10px 10px;
+         
+     }
+     .doc h4, .doc h5{
+        font-size: 14px;
+     }
+     
+ }
