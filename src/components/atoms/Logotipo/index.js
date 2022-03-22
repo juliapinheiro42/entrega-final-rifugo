@@ -6,6 +6,7 @@ const sizes = {
   small:28,
   large:64,
   extraLarge:120,
+  big:160,
 }
 
 export const Logotipo = ({size}) => {

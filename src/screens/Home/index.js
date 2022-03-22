@@ -99,5 +99,5 @@ const styles = StyleSheet.create({
     borderRadius:7,
     marginLeft:20,
     marginBottom:10,
- },
+ }
 })

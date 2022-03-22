@@ -5,7 +5,7 @@ import { CustomText,Logo,Logotipo } from '../../components';
 export const SplashScreen = ({navigation}) => {
   useEffect(() => {
       setTimeout(() => {
-        navigation.navigate('Home')
+        navigation.navigate('Sobre')
       },1000)
   },[navigation])
 
