@@ -57,7 +57,7 @@ box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
     box-shadow: 0 6px 6px #000;
     border-radius: 20px;
     background-color: rgb(245, 179, 113);
-    overflow-y: auto;
+    overflow-y:scroll;
 }
 .member-list .nav{
     display: flex;
@@ -86,7 +86,7 @@ box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
     width: 100%;
     border-radius: 20px;
     box-shadow: 0 3px 3px #000;
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 .chat-content input, .chat-content button{
     margin-bottom: 20px;
