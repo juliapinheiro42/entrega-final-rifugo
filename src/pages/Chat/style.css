@@ -261,8 +261,11 @@ box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
         margin-right: 40px;
         font-size: 20px;
     }
+    .member-list{
+        padding: 40px ;
+    }
     .chat-content{
-        
+        padding: 60px ;
         margin: 0px 200px 0 0; 
     }
    .chat-box{
