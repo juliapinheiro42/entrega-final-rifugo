@@ -275,5 +275,6 @@ box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
     }
    .chat-box{
        padding: 10px;
+       margin: 20px 0 30px 0;
    }
 }
