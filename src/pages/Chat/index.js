@@ -121,10 +121,8 @@ const onPrivateMessage = (payload)=>{
     return (
         <div className='chat-container'>
                <br/>
-               <br/>
             <Header/>
             <br/>
-               <br/>
            {userData.connected ?
             
            <div className='chat-box'>
