@@ -47,17 +47,17 @@ export default function Duvidas() {
             <span> mais próximo e consultar sobre a necessidade de agendamento.
             </span>
             <h5 class=" d-flex justify-content-start m-3"> 3)Tenho mais de um documento de identificação. <br/>Qual devo apresentar ao fazer a solicitação de reconhecimento da condição de refugiado?</h5>
-            <span class="d-none d-lg-flex">
+            <span >
             Sempre que você tiver o passaporte, utilize-o para solicitar refúgio. </span> <br/> <span>  Se o passaporte não tiver os dados de filiação, então você pode utilizar os documentos abaixo, na seguinte ordem:
                 </span> <br/>  <ul>
-                    <li class="d-none d-lg-flex"> certidão de nascimento;</li>
-                    <li class="d-none d-lg-flex"> certidão de casamento;</li>
-                    <li class="d-none d-lg-flex">
+                    <li > certidão de nascimento;</li>
+                    <li > certidão de casamento;</li>
+                    <li>
                         certidão consular do país de nacionalidade; ou
                         justificação judicial.
                     </li>
                 </ul>
-                <span class="d-none d-lg-flex">
+                <span>
                 Caso tenha dúvidas, consulte o artigo 68 do Decreto nº 9.199/1997.
                 </span>
             <div class=" logo3">
