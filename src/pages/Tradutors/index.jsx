@@ -78,7 +78,7 @@ class TradutorComponent extends Component {
                 </Card>
                  )}
                  </div>
-                 <div className='chat-tradutor'>
+                 <div className='chat-tradutor d-none d-md-flex'>
                      <h3>Chat with Tradutors</h3>
                  <Link to='/chat'> <ChatBubbleIcon fontSize="large"/></Link>
                  </div>
