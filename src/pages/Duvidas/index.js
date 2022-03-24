@@ -93,9 +93,9 @@ export default function Duvidas() {
             </span>
             <br/>
             <span className="pb-3">
-            Ou seja: o solicitante não precisa adotar nenhuma medida adicional: caso queira pedir refúgio pela primeira vez, deverá cadastrar-se no Sisconare </span> <br/> <span className="ml-3 justify-content-start d-lg-block d-none">
+            Ou seja: o solicitante não precisa adotar nenhuma medida adicional: caso queira pedir refúgio pela primeira vez, deverá cadastrar-se no Sisconare </span> <br/> <span>
                 e preencher o formulário de solicitação de reconhecimento da condição de refugiado; </span> <br/>
-                 <span className="d-none d-lg-flex">
+                 <span>
                 caso já seja solicitante, deverá seguir as orientações de renovação de acordo com o seu caso (realizar recadastro ou apenas agendar atendimento na Polícia Federal).
                 </span>
 
@@ -108,7 +108,7 @@ export default function Duvidas() {
                  <span className="d-none d-lg-flex">O DPRNM, previsto no Decreto nº 9.277/2018, passou a ser o documento de identificação de solicitantes de refúgio, em substituição do Protocolo de Refúgio.</span>
 
                   <br/>
-                 <span> LEMBRE-SE: o DPRNM possui validade de um ano, e deve ser renovado anualmente na Polícia Federal.</span>
+                 <span className="d-none d-lg-flex"> LEMBRE-SE: o DPRNM possui validade de um ano, e deve ser renovado anualmente na Polícia Federal.</span>
         </div>
         <br/>
         <br/>
