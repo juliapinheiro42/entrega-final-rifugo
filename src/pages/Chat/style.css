@@ -180,70 +180,12 @@ box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
         margin: 0 ; 
     }
 }
-@media screen and (max-width:425px) {
-    .member-list {
-    width: 1%;
-    margin-right: 20px;
-    height:96% ;
-    background-color:transparent;
-    box-shadow: none;
+@media only screen and (max-width:425px) {
+    .chat-container{
+        display: none;
     }
-    .member-list .nav{
-        position: absolute;
-        top: 0;
-        left: 2220px;
-    }
-    .chat-box{  
-     width: 100%;
-     padding: 10px;
-     margin: 50px 0 30px 0;
-     display: flex;
-     justify-content: center;
-     padding: 20px;
-    }
-    .member-list li{
-        margin-right: 30px;
-        justify-content: start;
-        font-size: 10px;
-    }
-    .chat-content{
-        height: 96%;
-        width: 98%;
-       margin: 0 10px 0 0px;
-       
-    }
-    .navli{
-        margin-right: 10px;
+}
 
-    }
-    .chat-content input{
-       
-        padding: 4px 30px 4px 30px;
-        margin-right: 10px;
-       
-    }
-    .chat-content button{
-        padding: 6px;
-       margin-left: 4px;
-    }
-    .chat-content{
-        height: 96%;
-        width: 98%;
-       padding:0;
-       
-    }
-}
-@media screen and (max-width:375px) {
-    .chat-content input{
-       
-        margin-left: 10px;
-        padding: 4px 25px 4px 25px;
-    }
-    .chat-content button{
-        padding: 6px;
-       margin-left: 10px;
-    }
-}
 @media screen and (max-width:900px) {
     .member-list {
     font-size: 10px;
