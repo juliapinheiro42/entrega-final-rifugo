@@ -39,10 +39,10 @@ export default function Footer() {
     </div>
     <div className='logos'>
         <h4>Siga nossas redes sociais</h4>
-    <InstagramIcon  href='https://www.instagram.com/rifugosocial/' fontSize="large" target='_blank'/>
-    <FacebookIcon  href='https://www.facebook.com/profile.php?id=100079766552504' fontSize="large" target='_blank'/>
+    <a href='https://www.instagram.com/rifugosocial/' target='_blank'><InstagramIcon   fontSize="large" /></a>
+    <a href='https://www.facebook.com/profile.php?id=100079766552504' target='_blank'><FacebookIcon   fontSize="large" /></a>
     <LinkedInIcon  href='' fontSize="large" target='_blank'/>
-    <YouTubeIcon  href='https://youtu.be/56l3gqoDmdI' fontSize="large" target='_blank'/>
+    <a href='https://youtu.be/56l3gqoDmdI' target='_blank'><YouTubeIcon   fontSize="large" target='_blank'/></a>
         </div>
    </div>
  );
