@@ -229,7 +229,7 @@ box-shadow: 0 10px 10px #000, 0 15px 15px #000 ;
     .chat-content{
         height: 96%;
         width: 98%;
-       padding: 0 40px 0 40px;
+       padding:0;
        
     }
 }
