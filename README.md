@@ -4,7 +4,7 @@
 
 
 
-<h2> P R O J E T O  <br>  R I F U Ĝ O </h2>
+<h2> R I F U Ĝ O </h2>
 
 Um projeto desenvolvido para refugiados recém chegados no Brasil, que por falta de informação ou comunicação na própria língua, estão sem documentação. O projeto 
 Rifuĝo conta com ajuda de tradutores voluntarios cadastrados na página para atender refugiados que não entendem muito da língua portuguesa, ou que queiram aprender a se comunicar em português(em chat no próprio site), o site também conta com informações, em português e espanhol, sobre como funciona a retirada da documentação no Brasil.
