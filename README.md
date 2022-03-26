@@ -1,5 +1,5 @@
 <div align="center">
-![logo 1 julia 2](https://user-images.githubusercontent.com/89882407/160252181-85d9342b-177a-4ea8-b8e6-e325a34ad5cf.png)
+<img src="https://user-images.githubusercontent.com/89882407/160252181-85d9342b-177a-4ea8-b8e6-e325a34ad5cf.png">
 </div>
 
 
