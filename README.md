@@ -25,5 +25,5 @@ https://rifugoweb.netlify.app/
 
 
 ## Autores
-[<img src="https://avatars.githubusercontent.com/<juliapinheiro42>" width=115><br><sub>Julia Pinheiro de Farias</sub>
+[<img src="https://avatars.githubusercontent.com/<juliapinheiro42>" width=115><br><sub>Julia Pinheiro de Farias</sub>]
 
