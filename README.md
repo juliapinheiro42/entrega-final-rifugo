@@ -25,5 +25,5 @@ https://rifugoweb.netlify.app/
 
 
 ## Autores
-| <img src="https://avatars.githubusercontent.com/u/89882407?s=400&u=fa2eedf1411121a34d2b17e63a10ebb2e7480c0c&v=4" width=115><br><sub>Julia Pinheiro de Farias</sub> |  <img src="https://avatars.githubusercontent.com/u/86871445?v=4" width=115><br><sub>Lucas Fernandes</sub> | <img src="https://avatars.githubusercontent.com/u/96153803?v=4" width=115><br><sub>Alice Calado</sub> | 
+ <img src="https://avatars.githubusercontent.com/u/89882407?s=400&u=fa2eedf1411121a34d2b17e63a10ebb2e7480c0c&v=4" width=115><br><sub>Julia Pinheiro de Farias</sub>  <img src="https://avatars.githubusercontent.com/u/86871445?v=4" width=115><br><sub>Lucas Fernandes</sub>  <img src="https://avatars.githubusercontent.com/u/96153803?v=4" width=115><br><sub>Alice Calado</sub>  
 
